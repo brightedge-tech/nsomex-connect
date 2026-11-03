@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "NSOMEX Connect",
+    "slug": "nsomex-connect",
+    "scheme": "nsomex-connect",
+    "description": "Connect customers with trusted service providers.",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nsomex.connect"
+    },
+    "android": {
+      "package": "com.nsomex.connect"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "color": "#16804A",
+          "defaultChannel": "default"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

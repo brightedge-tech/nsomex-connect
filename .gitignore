@@ -1,0 +1,32 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Supabase temporary files
+supabase/.temp/
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Android build files
+**/android/.gradle/
+**/android/build/
+**/android/app/build/
+
+# iOS
+ios/Pods/
+ios/build/
+
+# IDE files
+.idea/
+**/.idea/
+
+# Logs and backups
+*.log
+*.backup

@@ -1,0 +1,10 @@
+project_id = "nsomex-connect"
+
+[db]
+major_version = 17
+
+[db.seed]
+enabled = false
+
+[functions.dispatch-push]
+verify_jwt = false
